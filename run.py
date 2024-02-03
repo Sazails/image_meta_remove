@@ -38,10 +38,10 @@ def main():
     print(f"Selected image: {image_path}")
     print_metadata(image_path)
     choice = input("Do you want to remove the metadata from this image? (yes/no): ")
-    if choice.lower() == "no":
+    if choice.lower() in ["no", "n", "nope"]:
         print("Program closed.")
         return
-    elif choice.lower() == "yes":
+    elif choice.lower() in ["yes", "y", "yeah"]:
         remove_metadata(image_path)
         print("Metadata removal done.")
         print_new_metadata(image_path)
