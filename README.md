@@ -20,3 +20,10 @@ The program provides the following output:
 - Confirmation prompt for metadata removal.
 - Display of new metadata.
 - Waiting for key press before quitting.
+
+
+## Python environment setup
+1. Install Python3.10, I recommend through Microsoft Store
+2. Launch terminal within downloaded folder
+3. python3 -m venv venv
+4. pip3.10 install -r .\requirements.txt
